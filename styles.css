@@ -9,7 +9,7 @@ body, html {
     height: 100%; /* За да осигурим, че страницата ще заема 100% от височината на екрана */
     font-family: Arial, sans-serif; /* Определяме шрифт за цялата страница */
     background-color: #000000; /* Черен фон за космическо усещане */
-    background-image: url('images/stars.gif'); /* Фон с изображение на звезди (поставете пътя към изображението на звездите) */
+    background-image: url('images/vselena.gif'); /* Фон с изображение на звезди (поставете пътя към изображението на звездите) */
     background-size: cover; /* Покрива цялата ширина и височина на екрана */
     background-position: center; /* Центрираме фона */
     background-attachment: fixed; /* Фонът остава фиксиран при скрол */
