@@ -1,39 +1,58 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Основен стил за всички страници */
+* {
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1 {
-    text-align: center;
+body, html {
+    height: 100%; /* За да осигурим, че страницата ще заема 100% от височината на екрана */
 }
 
 .story {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: #fff;
+    height: 100%; /* Височината на съдържанието да заема цялата височина на екрана */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Разпределяме съдържанието равномерно по вертикалата */
+    align-items: center;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.character, .place {
-    margin-top: 20px;
-    text-align: center;
+h1, h2, p {
+    margin: 20px 0;
 }
 
-.character img, .place img {
+.place img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
+    max-height: 300px; /* Ограничаваме височината на изображенията */
 }
 
 .navigation {
-    text-align: center;
-    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: auto; /* Поставяме бутоните за навигация в долната част */
 }
+
+
+
 
 button {
     padding: 10px 20px;
@@ -47,5 +66,20 @@ button {
 
 button:hover {
     background-color: #45a049;
+}
+
+
+
+
+
+.character, .place {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.character img, .place img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
